@@ -1,10 +1,10 @@
 ## Xibo - A digital signage CMS application 
 
-This example project uses `docker-compose.yml` file from https://github.com/xibosignage/xibo-docker and creates IEAM deployment files so that application can be deployed on IEAM. Application migration was done manually and it was not that difficult.
+This example project uses `docker-compose.yml` file from https://github.com/xibosignage/xibo-docker and creates IEAM deployment files so that application can be deployed on IEAM. Application migration from `docker-compose.yml` was done manually and it was not that difficult.
 
 ### Notes
 
-IEAM uses [semver](https://semver.org) naming scheme for releases. cms, xmr and ianw images had to be re-tagged and pushed into another repository to make the service publishing possible in IEAM.
+IEAM uses [semver](https://semver.org) naming scheme for releases. I re-tagged and pushed cms, xmr and ianw images into another repository to make the service publishing possible essier in IEAM.
 
 ### Setup
 Setup following ENV variables to publish the service, pattern and register the edge node.
