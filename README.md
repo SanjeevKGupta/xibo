@@ -1,5 +1,7 @@
 ## Xibo - A digital signage CMS application 
 
+This project was developed to showcase IEAM capability to deploy a third party containerized application (Digital Signage), and enable Scale Computing (an IBM partner) working with Jerry's Food to demonstrate consolidated architecture using Intel NUC + Scale Computing VM management at the edge + IEAM. 
+
 This example project uses `docker-compose.yml` file from https://github.com/xibosignage/xibo-docker and creates IEAM deployment files so that application can be deployed on IEAM. Application migration from `docker-compose.yml` was done manually and it was not that difficult.
 
 ### Notes
