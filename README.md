@@ -6,7 +6,7 @@ This example project uses `docker-compose.yml` file from https://github.com/xibo
 
 ### Notes
 
-IEAM uses `x.y.z` version naming scheme for services. I re-tagged and pushed cms, xmr and ianw images into another repository to make the service publishing essier in IEAM.
+IEAM uses `x.y.z` version naming scheme for services. I re-tagged and pushed cms, xmr and ianw images into another repository to make the service publishing easier in IEAM.
 
 ### Setup
 Setup following ENV variables to publish the service, pattern and register the edge node.
